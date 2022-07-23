@@ -10,6 +10,8 @@ window.onload = function() {
 	stroke(context,distance,size, d=1, l=20)
 	stroke(context,distance,size, d=5, l=40, '18px serif')
 	stroke(context,distance,size, d=10, l=60)
+	
+	document.getElementById('canvas-link').href = canvas.toDataURL()
 }
 
 function stroke(context,distance,size, d=1,len=50, font=null){
