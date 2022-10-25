@@ -1,10 +1,13 @@
 window.onload = function() {
 	var canvas = document.getElementById('myCanvas')
 	
+	//Screen pixel height
 	var size = 2248
+	//Screen height in millimeters
 	var distance = 142.1
 	
 	canvas.height = size
+	//Screen pixel width
 	canvas.width = 1080
 	var context = canvas.getContext('2d')
 	stroke(context,distance,size, d=1, l=20)
